@@ -33,10 +33,5 @@ public class Main {
 		}
 	}
 }
-//インポートするやり方はsukkiri参考書のやり方ではできなかった。
-//列挙型.javaをわざわざ別パッケージに移し、public enumとし、
-//Account.java＝import list05_02.AccountType;
-//Main.java＝import static list05_02.AccountType.*;
-//とすれば、AccountTypeの省略可能。
-//publicは必須ぽい。
+// 勘違いでした。同じパッケージでも普通にできた。AccountType.javaを同パケに戻しAccount.javaのimportを消すだけ
 
